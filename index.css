@@ -30,18 +30,19 @@ body{
     border-radius: 5px;
 }
 
-.logo {
+.logo{
     height: 80%;
 }
 
-.lista-nav {
+.lista-nav{
     list-style: none;
     display: flex;
     gap: 40px;
 }
 
-.a-nav {
+.a-nav{
     font-weight: 900;
 }
+
 
 

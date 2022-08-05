@@ -6,25 +6,23 @@
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: #14213d;
 }
 
 body{
     margin: 0;
     padding: 0;
-    padding-top: 65px;
-    background-color: #f1d42a ;
+    /*padding-top: 30px;*/
 }
 
 .header{
     height: 12vh;
     display: flex;
-    position: fixed;
     justify-content: space-around;
     align-items: center;
-    background-color: #d1d1d1;
+    background-color: #cdcdcd;
     width: 100%;
-    top: 10px;
+    top: 5px;
     left: 5px;
     right: 15px;
     border-radius: 5px;
@@ -32,6 +30,13 @@ body{
 
 .logo{
     height: 80%;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.logo1{
+    width: 50px;
+    cursor: pointer;
 }
 
 .lista-nav{
@@ -41,8 +46,89 @@ body{
 }
 
 .a-nav{
-    font-weight: 900;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
 }
 
+.a-nav:hover{
+    background: #ffff;
+}
 
+.section-principal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    height: 88vh;
+    background: linear-gradient(0deg, rgba(255,255,255,1) 30%, rgba(255,202,58,1) 100%);
+}
+.container-principal{
+    width: 50%;
+}
+
+.logo-creative3d{
+    width: 25%;
+    min-width: 300px;
+    border-radius: 30px;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.568);
+}
+
+.container-principal button {
+    width: 25%;
+    height: 50px;
+    background-color: #14213d;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 700;
+    border-radius: 12px;
+    border-style: none;
+    margin-top: 40px;
+    margin-left: 40px;
+    min-width: 190px;
+    cursor: pointer;
+}
+
+.container-principal button:hover{
+    background: #e5e5e5;
+}
+
+.izquierda{
+    height: 100vh;
+    width: 50%;
+    background: linear-gradient(0deg, rgba(255,202,58,1) 30%, rgba(255,255,255,1) 100%);
+}
+
+.derecha{
+    background: url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;    
+}
+
+.pantalla-dividida {
+    display: flex;
+}
+
+h1 {
+    font-size: 60px;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 50px;
+}
 
